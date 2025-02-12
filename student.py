@@ -59,7 +59,7 @@ def add():
       print "in add"
       print request
       print request.form['name'],request.form['age'],request.form['mark']
-      print "Thus uiaskasn "
+      print "Aslam Uppintavida Loves Ebtisam HJijja "
       db=get_db()
       db.execute('insert into student(name,age,mark) values(?,?,?)',[request.form['name'],request.form['age'],request.form['mark']])
       db.commit()
